@@ -1,0 +1,107 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{cmap}
+\usepackage[english,russian]{babel}
+
+\backslashfrontmatter
+\backslashmainmatter
+\backslashbackmatter
+\usepackage{setspace,amsmath}
+\usepackage[left=20mm, top=15mm, right=15mm, bottom=15mm, nohead, footskip=10mm]{geometry} % настройки полей документа
+
+\begin{document}
+
+% НАЧАЛО ТИТУЛЬНОГО ЛИСТА
+\begin{center}
+\hfill \break
+\small{\text{Федеральное государственное автономное образовательное учреждение высшего образования }\\
+\small{\textbf{НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ}\\
+\small{\textbf{«ВЫСШАЯ ШКОЛА ЭКОНОМИКИ»}}\\
+\normalsize{\textbf{Факультет биологии и биотехнологии}}\\
+\hfill \break
+\hfill\break
+\hfill \break
+\hfill \break
+\hfill \break
+
+\large{\textbf{КУРСОВАЯ РАБОТА}}\\
+\large{Моделирование динамики инфекции COVID-19 в человеческом организме}
+
+\hfill \break
+
+\normalsize{По направлению подготовки Биология\\
+Образовательная программа "Клеточная и молекулярная биотехнология"\\
+\hfill \break
+\hfill \break
+\hfill \break
+
+\end{center}
+ 
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+
+\vbox{%
+\hfill%
+\vbox{%
+\hbox{Выполнил:}%
+\hbox{Студент группы БКМБ192}%
+\hbox{Лукашевич С.}%
+\hbox{Руководитель:}%
+\hbox{Нерсисян С.А.}%
+\hbox{должность}%
+}%
+} 
+
+
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\begin{center} Москва 2022 \end{center}
+\thispagestyle{empty} 
+ 
+% КОНЕЦ ТИТУЛЬНОГО ЛИСТА
+\tableofcontents{}
+\clearpage
+
+\chapter{Введение}
+
+\chapter{Дифференциальное уравнение}
+
+\section{Дифференциальные уравнения}
+\section{Решение дифференциальных уравнений}
+\subsection{Метод интегрирования Коши}
+
+\section{ы}
+
+\chapter{Модели, описывающие динакмику коронавирусной инфекции}
+
+\section{Модели без иммунитета}
+
+\section{Модели с иммунитетом}
+\subsection{Модели с гуморальным иммунитетом}
+\subsection{Модели с клеточным иммунитетом}
+
+
+\section{}
+
+\chapter{Подбор параметров модели}
+
+
+
+\end{document}
